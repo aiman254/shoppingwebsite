@@ -1,0 +1,135 @@
+@media (max-width:600px){
+body{
+padding: 0;
+margin: 0;
+}
+
+.nav-parentsec{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    padding: 0.4em;
+  
+
+}
+
+.companylogo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.companylogo img{
+    margin-right: 0.4rem;
+}
+.nav-childsec{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+    padding: 2px;
+    cursor: pointer;
+}
+/* .nav-childsec:hover{
+    color: red;
+} */
+
+.nav-childsec a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-childsec a:hover {
+    color: red;
+}
+.Hero-sec{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem;
+}
+
+.Hero-sec h2{
+    /* background-color: red; */
+    margin: 0;
+}
+.Herosec-btn{
+    background-color: red;
+    padding: 0.3rem;
+    
+}
+.Herosec-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.Product-sec{
+    background-color: rgba(238, 238, 235, 0.794);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Product-sec h2{
+    padding: 0.2rem;
+    /* background-color: red; */
+}
+.products{
+    /* background-color: rgb(171, 171, 236); */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+}
+
+.product1{
+    background-color: rgb(239, 239, 235);
+    padding: 0.5rem;
+    margin: 0.7rem;
+    border: 1px solid rgb(182, 177, 177);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+ 
+}
+
+.product1 h4{
+background-color: rgb(250, 248, 248);
+padding: 0.1rem;
+margin: 1rem;
+
+}
+
+.product1 p{
+    /* background-color: pink; */
+    margin: 0;
+}
+
+.product1 button{
+    background-color: green;
+    color: white;
+    margin-top: 0.6rem;
+    padding: 0.2rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+.footer-parent{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-parent p{
+font-size: 0.8rem;
+}
+}
